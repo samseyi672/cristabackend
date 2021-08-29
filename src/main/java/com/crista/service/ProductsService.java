@@ -105,7 +105,7 @@ public class ProductsService {
 				}
 				html.append("<div class=\"front\">");
 				//edit the below url later .dont forget 
-				html.append("<a href=\"#\"><img src=\"http://cristabackend.herokuapp.com/jetstore/"+new File(p.getImageurl()).getName()+"\"class=\"img-fluid blur-up lazyload bg-img\" alt=\"\"></a>");
+				html.append("<a href=\"#\"><img src=\"https://cristabackend.herokuapp.com/jetstore/"+new File(p.getImageurl()).getName()+"\"class=\"img-fluid blur-up lazyload bg-img\" alt=\"\"></a>");
 				html.append("</div></div> <div class=\"product-detail\">");
 				html.append(
 						"<div class=\"rating\"><i class=\"fa fa-star\"></i> <i class=\"fa fa-star\"></i> <i class=\"fa fa-star\"></i> <i class=\"fa fa-star\"></i> <i class=\"fa fa-star\"></i></div>");
